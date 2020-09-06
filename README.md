@@ -354,8 +354,6 @@ Artist.all
 ```
 
 Find an Artist by name:
-
-```ruby
 Artist.find_by(name: 'Jon')
 # => #<Artist id: 1, name: "Jon", genre: nil, age: 30, hometown: nil>
 ```
